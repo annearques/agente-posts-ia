@@ -10,7 +10,7 @@ from google.adk.tools import google_search
 from google.genai import types
 
 # Configurar API Key
-os.environ["GOOGLE_API_KEY"] = st.secrets["AIzaSyA72oG5G4v7YcsedTJA7GYwMsst0KpLNwI"]
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 # Função para executar agente
 def call_agent(agent: Agent, message_text: str) -> str:
